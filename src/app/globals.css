@@ -9,9 +9,6 @@
     background-color: #1A9988;
   }
   .bg-secondary{
-    background-color:#EB4424;
-  }
-  .bg-navy-blue{
     background-color: #192954;
   }
   .text-primary{
@@ -26,4 +23,11 @@
   .text-balance {
     text-wrap: balance;
   }
+  .border-primary{
+    border: 2px solid#1A9988;
+    
+  }
+}
+.hero{
+  background-image: url(../../public/hero-header.png);
 }
