@@ -49,7 +49,7 @@
 
 .links a.active,
 .links a:hover {
-  color: #13A8BD
+  color: #EB4424
 }
 
 
@@ -91,13 +91,15 @@
     align-items: center;
     justify-content: flex-start;
     width: 100% !important;
-    color: #005c4d;
+    color: #1A9988;;;
     padding: 0px 20px 0px;
   }
 
   .links a:hover {
-    background-color: #005c4d;
+    background-color: #1A9988;;
     color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .links span {
@@ -116,7 +118,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #005c4d;
+    color: #1A9988;;
     font-size: 18px;
     position: absolute;
     top: 40px;

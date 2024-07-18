@@ -113,7 +113,7 @@ Research to Ideation to Product Development
   </div>
 
 </section>
-<section className="container mx-auto px-5 lg:px-24 lg:mt-40 space-y-4 py-10 ">
+<section className="container mx-auto px-5 lg:px-24 lg:mt-40 space-y-4 py-10 " id="about">
   <h2 className="font-bold text-4xl text-secondary text-center">About Us</h2>
   <p className="text-primary text-lg lg:max-w-[80%] text-center mx-auto">Marlin Specter iSystems stands at the forefront as the premier AIoT and Data Analytics
 Partner for numerous global enterprises, SMEs, as well as key stakeholders in the digital
@@ -168,7 +168,7 @@ Hygiene (WASH)</h2>
 
 </section>
     </div>
-    <section className=" container mx-auto px-5 lg:px-24 py-12 bg-[#f1f7f6] ">
+    <section className=" container mx-auto px-5 lg:px-24 py-12 bg-[#f1f7f6] " id="usecase">
       <h2 className="text-primary text-2xl font-semibold text-center">
         Use Cases
       </h2>
@@ -195,7 +195,7 @@ Hygiene (WASH)</h2>
 
 
     </section>
-    <section className=" container mx-auto px-5 lg:px-24 py-12 bg-white ">
+    <section className=" container mx-auto px-5 lg:px-24 py-12 bg-white " id="products">
     <h2 className="text-black text-2xl font-semibold text-center">
         Products &amp; Services
       </h2>
@@ -247,7 +247,7 @@ Hygiene (WASH)</h2>
      
 
     </section>
-    <section className=" container mx-auto px-5 lg:px-24 py-12 bg-[#f1f7f6] ">
+    <section className=" container mx-auto px-5 lg:px-24 py-12 bg-[#f1f7f6] " id="whyus">
     <h2 className="text-primary text-2xl font-semibold text-center">
     Why Choose Us?
       </h2>

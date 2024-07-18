@@ -36,11 +36,11 @@ const Navbar = () => {
           </div>
 
           <a href="/#about">About Us</a>        
-          <a href="/business">Use Cases</a>
-          <a href="/events">Products &amp; Services</a>
+          <a href="/#usecase">Use Cases</a>
+          <a href="/#products">Products &amp; Services</a>
 
-          <a href="/blogs">Why Us</a>
-          <a href="/healthcare-providers">Get Involved</a>
+          <a href="/#whyus">Why Us</a>
+          <a href="/#whyus">Get Involved</a>
           
           <button
           
