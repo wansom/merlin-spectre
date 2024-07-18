@@ -27,7 +27,118 @@
     border: 2px solid#1A9988;
     
   }
+  .border-secondary{
+    border: 2px solid#192954;
+    
+  }
 }
 .hero{
   background-image: url(../../public/hero-header.png);
+}
+/* == HEADER == */
+
+
+.links a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #005c4d;
+  padding: 13px 10px;
+  white-space: nowrap;
+}
+
+
+.links a.active,
+.links a:hover {
+  color: #13A8BD
+}
+
+
+
+.menu-bar {
+  padding: 5px;
+}
+
+/* == || Header == */
+/* == RESPONSIVE == */
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (max-width: 640px) {
+
+  .menu-btn {
+    color: #ffffff;
+  }
+
+  .links {
+    height: 80vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+
+    display: flex;
+    padding: 80px 0px 10px;
+    transition: all ease 0.5s;
+
+    z-index: 5;
+    background-color: white;
+
+  }
+  .links button {
+    width: 80%;
+  }
+
+  .links a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100% !important;
+    color: #005c4d;
+    padding: 0px 20px 0px;
+  }
+
+  .links a:hover {
+    background-color: #005c4d;
+    color: white;
+  }
+
+  .links span {
+    cursor: pointer;
+  }
+
+  .links.active {
+    right: 0%;
+  }
+
+  .cancel-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px var(--shadow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #005c4d;
+    font-size: 18px;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+  }
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .menu-btn {
+    color: white;
+  }
+
+
+  .menu-bar {
+    display: none !important;
+  }
+
+  .cancel {
+    display: none;
+  }
 }
