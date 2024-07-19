@@ -2,6 +2,8 @@
 import Image from "next/image";
 import { useState } from "react";
 import Navbar from "./components/navbar";
+import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export default function Home() {
   const useCases=[
@@ -89,6 +91,7 @@ export default function Home() {
       ]
     },
   ]
+  const router =useRouter()
   return (<main>
     <div className="min-h-screen  hero bg-cover bg-top">
       <Navbar/>
@@ -103,10 +106,10 @@ Research to Ideation to Product Development
 
   </h1>
   <div className="flex gap-8">
-    <button className="text-primary border-[2px] border-solid bg-white border-[#1A9988] flex items-center px-4 py-2 rounded-lg">Learn More
+    <Link href="#useCase" className="text-primary border-[2px] border-solid bg-white border-[#1A9988] flex items-center px-4 py-2 rounded-lg">Learn More
 
-    </button>
-    <button className="text-white bg-primary border-[2px] border-solid border-[#1A9988] flex items-center px-4 py-2 rounded-lg">Contact Us
+    </Link>
+    <button className="text-white bg-primary border-[2px] border-solid border-[#1A9988] flex items-center px-4 py-2 rounded-lg" onClick={router.push('https://calendly.com/brykimatia/30min')}>Contact Us
 
 </button>
 
@@ -317,12 +320,12 @@ iSystems
 
   </h1>
   <div className="flex gap-8 mb-32">
-    <button className="gap-2 text-white border-[2px] border-solid bg-primary border-[#1A9988] flex items-center px-4 py-2 rounded-lg">Learn More
+    <a href="https://calendly.com/brykimatia/30min" className="gap-2 text-white border-[2px] border-solid bg-primary border-[#1A9988] flex items-center px-4 py-2 rounded-lg">Learn More
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
 </svg>
 
-    </button>
+    </a>
 
   </div>
 
