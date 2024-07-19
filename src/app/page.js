@@ -109,7 +109,7 @@ Research to Ideation to Product Development
     <Link href="#useCase" className="text-primary border-[2px] border-solid bg-white border-[#1A9988] flex items-center px-4 py-2 rounded-lg">Learn More
 
     </Link>
-    <button className="text-white bg-primary border-[2px] border-solid border-[#1A9988] flex items-center px-4 py-2 rounded-lg" onClick={router.push('https://calendly.com/brykimatia/30min')}>Contact Us
+    <button className="text-white bg-primary border-[2px] border-solid border-[#1A9988] flex items-center px-4 py-2 rounded-lg" onClick={()=>{router.push('https://calendly.com/brykimatia/30min')}}>Contact Us
 
 </button>
 

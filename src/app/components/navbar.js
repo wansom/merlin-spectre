@@ -43,7 +43,7 @@ const Navbar = () => {
           <a href="/#whyus">Get Involved</a>
           
           <button
-          onClick={router.push('https://calendly.com/brykimatia/30min')}
+          onClick={()=>{router.push('https://calendly.com/brykimatia/30min')}}
             className="uppercase px-4 py-2 text-sm font-medium  text-center text-white transition-colors duration-150 bg-primary border border-transparent rounded-lg active:bg-primary hover:bg-[#01382E] focus:outline-none focus:shadow-outline-purple"
           >
             Contact Us
