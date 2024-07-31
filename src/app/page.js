@@ -101,7 +101,7 @@ export default function Home() {
 Reliable Services Incorporating Data As A Service (DAAS)<br/>
 <span className="text-primary">
 Unlock Growth with AIoT, Data, and Expert Consulting
-Research to Ideation to Product Development
+<br/>Research to Ideation to Product Development
 </span>
 
   </h1>
