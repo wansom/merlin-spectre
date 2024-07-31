@@ -120,7 +120,7 @@ Research to Ideation to Product Development
     </div>
     <section className="container mx-auto px-5 lg:px-24  space-y-4 py-10 " id="about">
   <h2 className="font-bold text-4xl text-secondary text-center">About Us</h2>
-  <p className="text-primary text-lg lg:max-w-[80%] text-center mx-auto">Marlin Specter iSystems stands at the forefront as the premier AIoT and Data Analytics
+  <p className="text-primary text-lg text-center mx-auto">Marlin Specter iSystems stands at the forefront as the premier AIoT and Data Analytics
 Partner for numerous global enterprises, SMEs, as well as key stakeholders in the digital
 realm. Our goal is to disrupt the norm and usher in the future by guiding businesses
 to adopt cutting-edge technologies. Leveraging our proficiency in AIoT product </p>

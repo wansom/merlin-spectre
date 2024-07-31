@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Merlin Specter",
+  title: "Marlin Specter",
   description: "Cutting edge AI and IoT Products",
 };
 
