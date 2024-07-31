@@ -116,7 +116,9 @@ Research to Ideation to Product Development
   </div>
 
 </section>
-<section className="container mx-auto px-5 lg:px-24 lg:mt-40 space-y-4 py-10 " id="about">
+
+    </div>
+    <section className="container mx-auto px-5 lg:px-24  space-y-4 py-10 " id="about">
   <h2 className="font-bold text-4xl text-secondary text-center">About Us</h2>
   <p className="text-primary text-lg lg:max-w-[80%] text-center mx-auto">Marlin Specter iSystems stands at the forefront as the premier AIoT and Data Analytics
 Partner for numerous global enterprises, SMEs, as well as key stakeholders in the digital
@@ -170,7 +172,6 @@ Hygiene (WASH)</h2>
   </div>
 
 </section>
-    </div>
     <section className=" container mx-auto px-5 lg:px-24 py-12 bg-[#f1f7f6] " id="usecase">
       <h2 className="text-primary text-2xl font-semibold text-center">
         Use Cases
