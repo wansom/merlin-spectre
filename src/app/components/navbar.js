@@ -26,7 +26,7 @@ const Navbar = () => {
 
         </div>
        
-        <div className='flex items-center justify-between lg:shadow-lg lg:rounded-lg lg:bg-white  px-5  mx-auto z-10 fixed top-12 left-1/2 transform -translate-x-1/2 w-full'> 
+        <div className='flex items-center justify-between lg:shadow-lg lg:rounded-lg lg:bg-white  px-5  mx-auto z-10 fixed top-10 left-1/2 transform -translate-x-1/2 w-full'> 
         <div className="logo"> 
           <a href="/" className="nav-logo">
             <Image src="/logo.png" alt="logo" width={100} height={100} />
