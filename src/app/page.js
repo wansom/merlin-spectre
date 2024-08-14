@@ -95,8 +95,8 @@ export default function Home() {
   return (<main>
     <div className="min-h-screen  hero bg-cover bg-top">
       <Navbar/>
-<section className=" h-screen flex flex-col gap-5 items-center lg:justify-center container mx-auto px-5 lg:px-28 py-10 lg:py-24">
-  <h1 className=" text-navy-blue  text-lg lg:text-[28px] font-light text-center font-serif lg:max-w-[85%]">
+<section className=" h-screen flex flex-col gap-5 items-center lg:justify-center container mx-auto px-5 lg:px-28 py-12">
+  <h1 className=" text-navy-blue  text-lg  lg:text-4xl font-light text-center font-serif ">
   Cutting-edge AI and IoT products/services for real-world applications<br/>
 Reliable Services Incorporating Data As A Service (DAAS)<br/>
 <span className="text-primary">
