@@ -8,8 +8,9 @@ const Navbar = () => {
 
   return (
    
-      <div className=" container-fluid mx-auto py-1 bg-white">
-        <div className='bg-primary hidden md:flex items-center justify-between px-5 lg:px-20 py-1 w-full z-10'>
+      <div className=" container-fluid mx-auto bg-white">
+       
+        <div className='bg-primary hidden md:flex items-center justify-between  py-1 w-full z-10 container mx-auto px-5 lg:px-20 lg:shadow-lg '>
           <p className='text-sm text-white'>chat@marlinspecter.com</p>
           <a href="https://www.linkedin.com/company/marlinspecter-isystems" target="blank" aria-label="visit our linkedin page">
           <svg className="w-6 h-6" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,7 +27,7 @@ const Navbar = () => {
 
         </div>
        
-        <div className='flex items-center justify-between lg:shadow-lg lg:rounded-lg lg:bg-white  px-5  mx-auto z-10 fixed top-10 left-1/2 transform -translate-x-1/2 w-full'> 
+        <div className='flex items-center justify-between lg:shadow-lg lg:rounded-b-lg lg:bg-white container mx-auto px-5 lg:px-20'> 
         <div className="logo"> 
           <a href="/" className="nav-logo">
             <Image src="/logo.png" alt="logo" width={100} height={100} />

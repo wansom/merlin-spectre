@@ -97,7 +97,7 @@ export default function Home() {
       <Navbar/>
 <section className=" h-screen flex flex-col gap-5 items-center justify-center container mx-auto px-5 lg:px-28 py-24">
   <h1 className=" text-navy-blue text-[28px] font-light text-center font-serif lg:max-w-[85%]">
-  Cutting-edge AI and IoT products/services for real-world applications
+  Cutting-edge AI and IoT products/services for real-world applications<br/>
 Reliable Services Incorporating Data As A Service (DAAS)<br/>
 <span className="text-primary">
 Unlock Growth with AIoT, Data, and Expert Consulting
@@ -321,7 +321,7 @@ iSystems
 
   </h1>
   <div className="flex gap-8 mb-32">
-    <a href="https://calendly.com/brykimatia/30min" className="gap-2 text-white border-[2px] border-solid bg-primary border-[#1A9988] flex items-center px-4 py-2 rounded-lg">Learn More
+    <a href="https://calendly.com/brykimatia/30min" className="gap-2 text-white border-[2px] border-solid bg-primary border-[#1A9988] flex items-center px-4 py-2 rounded-lg">Talk To Us
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
 </svg>
