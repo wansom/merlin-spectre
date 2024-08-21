@@ -96,7 +96,7 @@ export default function Home() {
     <div className="min-h-screen  hero bg-cover bg-top">
       <Navbar/>
 <section className=" h-screen flex flex-col gap-5 items-center lg:justify-center container mx-auto px-5 lg:px-28 py-12">
-  <h1 className=" text-navy-blue  text-lg  lg:text-4xl font-light text-center font-serif ">
+  <h1 className=" text-navy-blue  text-lg  lg:text-3xl font-light text-center font-serif ">
   Cutting-edge AI and IoT products/services for real-world applications<br/>
 Reliable Services Incorporating Data As A Service (DAAS)<br/>
 <span className="text-primary">
@@ -123,7 +123,9 @@ Unlock Growth with AIoT, Data, and Expert Consulting
   <p className="text-primary text-lg text-center mx-auto">Marlin Specter iSystems stands at the forefront as the premier AIoT and Data Analytics
 Partner for numerous global enterprises, SMEs, as well as key stakeholders in the digital
 realm. Our goal is to disrupt the norm and usher in the future by guiding businesses
-to adopt cutting-edge technologies. Leveraging our proficiency in AIoT product </p>
+to adopt cutting-edge technologies. Leveraging our proficiency in AIoT product development, resilient data solutions, and holistic consultancy services, we empower
+organizations to embrace innovation and thrive in the digital era.
+ </p>
   <h2 className=" text-xl font-semibold text-black text-center">Research, Development and Consultancy (RDC) for Agriculture,
 Forestry, Education, Security, Energy, Water, Sanitation and
 Hygiene (WASH)</h2>
